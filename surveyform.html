@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">This is a title</h1>
+    <p id="description">This is a short explanation</p>
+    <form id="survey-form">
+        <fieldset>
+        <label for="first-name">Enter Your Name: <input id="name" name= "name" type="text" placeholder="Jane Doe" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required name="email" placeholder="Jane.Doe@gmail.com"/></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="10" max="120" name="age" placeholder="Age"/></label>
+        </fieldset>
+        <fieldset>
+        <legend>Are you an ARMY?</legend>
+        <label for="yes"><input id="yes" type="radio" name="ARMY" class="inline" checked /> Yes</label>
+        <label for="no"><input id="no" type="radio" name="ARMY" class="inline" /> No</label>
+      </fieldset>
+      <fieldset>
+          <label for="dropdown">Who is your BTS Bias?
+          <select id="dropdown" name="bias">
+            <option value="">(select one)</option>
+            <option value="1">Kim Namjoon</option>
+            <option value="2">Kim Seokjin</option>
+            <option value="3">Min Yoongi</option>
+            <option value="4">Jung Hosoek</option>
+            <option value="5">Park Jimin</option>
+            <option value="6">Kim Taehyung</option>
+            <option value="7">Jung Junkook</option>
+          </select>
+        </label>
+      </fieldset>
+      <label for="era"> What is your favorite BTS era?
+        <input id="era" type="checkbox" required name="era"/> Debut/Skool 
+        <input id="era" type="checkbox" required name="era" /> Youth/HYYH
+        <input id="era" type="checkbox" required name="era" /> Wings
+        <input id="era" type="checkbox" required name="era" /> Love Yourself
+        <input id="era" type="checkbox" required name="era" /> Map of the Soul
+        <input id="era" type="checkbox" required name="era" /> BE
+      </label>
+      <fieldset>
+      <label for="bio"> How did you discover BTS?
+          <textarea id ="bio" name="bio" rows="3" cols="30" placeholder="I watched a Youtube complilation..."></textarea>
+        </label>
+      </fieldset>
+    <input type="submit" value="Submit" />
+    </form>
+  <body>  
+</html>
