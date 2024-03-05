@@ -10,11 +10,8 @@ body {
 }
 
 form {
-  margin: 0 auto;
-  max-width: 500px;
-  min-width: 300px;
-  width: 60vw;
-  padding-bottom: 2em;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
   background-color: #6f2da8;
 }
 
