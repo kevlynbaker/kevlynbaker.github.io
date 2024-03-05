@@ -7,7 +7,6 @@ body {
   font-family: Tahoma;
   font-size: 16px;
   background-image: url(https://www.korea.net/upload/fileShare/2022/03/usr_1647326635899.jpg);
-     
 }
 
 form {
@@ -16,7 +15,7 @@ form {
   min-width: 300px;
   width: 60vw;
   padding-bottom: 2em;
-  background: #6f2da8;
+  background-color: #6f2da8;
 }
 
 .form-group {
