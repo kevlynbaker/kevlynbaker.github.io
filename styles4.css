@@ -13,9 +13,10 @@ form {
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
   background-color: #6f2da8;
+  padding: 20px;
 }
 
-.form-group {
+.survey-form {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
 }
