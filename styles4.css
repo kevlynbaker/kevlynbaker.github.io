@@ -18,11 +18,9 @@ form {
   padding-bottom: 2em;
 }
 
-fieldset {
-  border: 0;
-  padding: 2rem 0;
-  border-bottom: 3px solid #3b3b4f
-  background-color: #6f2da8;
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
 }
 
 input, textarea, select {
