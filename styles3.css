@@ -18,6 +18,10 @@ h1, p {
   text-align: center;
 }
 
+a {
+  color: #dfdfe2;
+}
+
 form {
   margin: 0 auto;
   max-width: 500px;
