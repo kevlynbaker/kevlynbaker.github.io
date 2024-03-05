@@ -13,17 +13,17 @@
         </p>
     </header>
     <form id="survey-form">
-        <fieldset>
+        <div class="survey-form">
           <label for="name" id="name-label">Enter Your Name: <input id="name" name= "name" type="text" placeholder="Jane Doe" required /></label>
           <label for="email" id="email-label">Enter Your Email: <input id="email" type="email" required name="email" placeholder="Jane.Doe@gmail.com"/></label>
           <label for="number" id="number-label">Input your age (years): <input id="number" type="number" min="10" max="120" name="age" placeholder="Age"/></label>
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="survey-form">
           <legend>Are you an ARMY?</legend>
           <label for="yes"><input id="yes" type="radio" name="ARMY" class="inline" value="1" checked /> Yes</label>
           <label for="no"><input id="no" type="radio" name="ARMY" class="inline" value="0" /> No</label>
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="survey-form">
           <label for="dropdown">Who is your BTS Bias?
           <select id="dropdown" name="bias">
             <option value="">(select one)</option>
@@ -36,8 +36,8 @@
             <option value="7">Jung Junkook</option>
           </select>
           </label>
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="survey-form">
           <p>What is your favorite BTS era?</p>
             <label><input id="era" class="inline" type="checkbox" required name="era" value="1"/> Debut/Skool </label>
             <label><input id="era" class="inline" type="checkbox" required name="era" value="2"/> Youth/HYYH </label>
@@ -45,12 +45,12 @@
             <label><input id="era" class="inline" type="checkbox" required name="era" value="4"/> Love Yourself </label>
             <label><input id="era" class="inline" type="checkbox" required name="era" value="5"/> Map of the Soul </label>
             <label><input id="era" class="inline" type="checkbox" required name="era" value="6"/> BE </label>
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="survey-form">
           <label for="bio"> How did you discover BTS?
             <textarea id ="bio" name="bio" rows="3" cols="30" placeholder="I watched a Youtube complilation..."></textarea>
           </label>
-        </fieldset>
+        </div>
     <input type="submit" id="submit" value="Submit" />
     </form>
   <body>  
