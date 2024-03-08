@@ -4,3 +4,9 @@
   background-color: #4d0f00;
 }
 
+.frame {
+  border: 20px solid black;
+  width: 500px;
+  padding: 50px;
+  margin: 20px auto;
+}
